@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "";
+  src: url("");
+}
+@font-face {
+  font-family: "";
+  src: url("");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "onest";
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+button {
+  border: none;
+}
+h1 {
+  font-family: "pl";
+}
+h2 {
+  font-family: "pl";
+}
+h3 {
+  font-family: "pl";
+}
+h4 {
+  font-family: "onest";
+}
+h5 {
+  font-family: "onest";
+}
