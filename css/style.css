@@ -1,1 +1,126 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "";
+  src: url("");
+}
+@font-face {
+  font-family: "";
+  src: url("");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "onest";
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+}
+
+h1 {
+  font-family: "pl";
+}
+
+h2 {
+  font-family: "pl";
+}
+
+h3 {
+  font-family: "pl";
+}
+
+h4 {
+  font-family: "onest";
+}
+
+h5 {
+  font-family: "onest";
+}
+
+.fast {
+  background-color: #121517;
+}
+
+.fast__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.fast__card {
+  width: 277px;
+  height: 600px;
+  border: 1px solid grey;
+  border-radius: 29px;
+}
+
+.fast__card--img {
+  margin-top: 17px;
+}
+
+.fast__title {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.fast__text {
+  color: #D9D9D9;
+  font-size: 20.13px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.fast__prices {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.fast__price {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 163%;
+  letter-spacing: -2%;
+  color: #FFFFFF;
+}
+
+.fast__price--two {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20.13px;
+  leading-trim: NONE;
+  line-height: 163%;
+  letter-spacing: -2%;
+  color: #FFFFFF;
+}
+
+.fast__btn {
+  padding: 15px 38px;
+  background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+  font-family: Montserrat;
+  font-weight: 639;
+  font-style: SemiBold;
+  font-size: 17.3px;
+  leading-trim: NONE;
+  line-height: 146%;
+  letter-spacing: -2%;
+  border-radius: 59.72px;
+  margin-left: 50px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
